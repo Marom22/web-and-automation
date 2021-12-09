@@ -1,0 +1,20 @@
+[1209/170910.942423:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: PRAGMA auto_vacuum
+[1209/170910.942496:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: PRAGMA journal_mode=TRUNCATE
+[1209/170910.942423:ERROR:database.cc(1773)] DatabaseTracker SQLite error: code 5 errno 0: database is locked sql: PRAGMA auto_vacuum
+[1209/170910.942532:ERROR:database.cc(1773)] DatabaseTracker SQLite error: code 5 errno 0: database is locked sql: PRAGMA journal_mode=TRUNCATE
+[1209/170911.321911:INFO:CONSOLE(143)] "No route based profile for route profile.view.index.index. Falling back to global profile voyager-web-global", source: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8 (143)
+[1209/170911.616783:INFO:CONSOLE(0)] "Clear-Site-Data header on 'https://platform.linkedin.com/litms/whitelist/voyager-web-global': The request's credentials mode prohibits modifying cookies and other local data.", source: https://www.linkedin.com/in/modi-tamam-1783a614/?originalSubdomain=il (0)
+[1209/170911.731218:INFO:CONSOLE(0)] "Access to XMLHttpRequest at 'https://platform.linkedin.com/litms/whitelist/voyager-web-global' from origin 'https://www.linkedin.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.linkedin.com/in/modi-tamam-1783a614/?originalSubdomain=il (0)
+[1209/170911.731495:INFO:CONSOLE(15021)] "Unable to retrieve whitelists for profile : voyager-web-global [object XMLHttpRequest]", source: https://static-exp1.licdn.com/sc/h/9xiivybbk9d3rjkrbqknqzzbh (15021)
+[1209/170911.950172:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: PRAGMA cache_size=500
+[1209/170911.950185:ERROR:database.cc(1773)] DatabaseTracker SQLite error: code 5 errno 0: database is locked sql: PRAGMA cache_size=500
+[1209/170911.950451:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: SELECT 1 FROM sqlite_schema WHERE type=? AND name=?
+[1209/170911.950527:ERROR:database.cc(1773)] DatabaseTracker SQLite error: code 5 errno 0: database is locked sql: SELECT 1 FROM sqlite_schema WHERE type=? AND name=?
+[1209/170911.950799:ERROR:database.cc(1773)] DatabaseTracker SQLite error: code 5 errno 0: database is locked sql: SELECT 1 FROM sqlite_schema WHERE type=? AND name=?
+[1209/170911.950829:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: SELECT 1 FROM sqlite_schema WHERE type=? AND name=?
+[1209/170911.950896:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: SELECT 1 FROM sqlite_schema WHERE type=? AND name=?
+[1209/170911.952252:ERROR:database.cc(1773)] Quota SQLite error: code 5 errno 0: database is locked sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[1209/170911.952342:ERROR:quota_database.cc(747)] Could not open the quota database, resetting.
+[1209/170912.154432:INFO:CONSOLE(17953)] "This response was unable to be parsed as json. ", source: https://static-exp1.licdn.com/sc/h/9xiivybbk9d3rjkrbqknqzzbh (17953)
+[1209/170913.032827:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from /home/modi/dev/devops-experts/lesson_4/selenium/.\cookies\\test/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb,IO error: /home/modi/dev/devops-experts/lesson_4/selenium/.\cookies\\test/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+[1209/170914.040035:ERROR:leveldb_factory.cc(91)] Failed to open LevelDB database from /home/modi/dev/devops-experts/lesson_4/selenium/.\cookies\\test/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb,IO error: /home/modi/dev/devops-experts/lesson_4/selenium/.\cookies\\test/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
