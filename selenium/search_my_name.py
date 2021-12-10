@@ -41,9 +41,9 @@ wait.until(EC.title_contains('Log'))
 
 # Login username/password
 email_box = driver.find_element(by=By.ID, value='session_key')
-email_box.send_keys('modi.tamam@gmail.com')
+email_box.send_keys('XXX')
 pass_box = driver.find_element(by=By.ID, value='session_password')
-pass_box.send_keys('@Mbmt3538')
+pass_box.send_keys('XXX')
 submit_button = driver.find_element(by=By.CLASS_NAME, value='sign-in-form__submit-button')
 submit_button.click()
 
