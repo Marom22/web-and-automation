@@ -36,29 +36,15 @@ def chrome_example():
 
 def firefox_example():
     print("Using Firefox...")
-    display = Display(visible=0, size=(800, 600))
-    display.start()
-
-    firefox_options = firefox.options.Options()
-    firefox_options.set_preference('browser.download.folderList', 2)
-    firefox_options.set_preference(
-        'browser.download.manager.showWhenStarting', False
-    )
-    firefox_options.set_preference('browser.download.dir', os.getcwd())
-    firefox_options.set_preference(
-        'browser.helperApps.neverAsk.saveToDisk', 'text/csv'
-    )
-
-    browser = webdriver.Firefox(options=firefox_options)
-
+    from selenium.webdriver.firefox.options import Options
+    options = Options()
+    options.add_argument("-headless")
+    browser = webdriver.Firefox(options=options)
     browser.get(BASE_URL)
-
     print('Page title: ', browser.title)
-
     browser.quit()
-    display.stop()
 
 
 if __name__ == '__main__':
-    chrome_example()
+    # chrome_example()
     firefox_example()
