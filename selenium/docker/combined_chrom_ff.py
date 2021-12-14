@@ -12,26 +12,16 @@ BASE_URL = 'http://www.google.com/'
 
 def chrome_example():
     print("Using Chrom...")
-    display = Display(visible=0, size=(800, 600))
-    display.start()
-
     chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--no-sandbox')
-
-    chrome_options.add_experimental_option('prefs', {
-        'download.default_directory': os.getcwd(),
-        'download.prompt_for_download': False,
-    })
-
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-using")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.headless = True
     browser = webdriver.Chrome(options=chrome_options)
-
     browser.get(BASE_URL)
     print('Accessed ..', BASE_URL)
-
     print('Page title: ', browser.title)
-
     browser.quit()
-    display.stop()
 
 
 def firefox_example():
@@ -46,5 +36,5 @@ def firefox_example():
 
 
 if __name__ == '__main__':
-    # chrome_example()
+    chrome_example()
     firefox_example()
