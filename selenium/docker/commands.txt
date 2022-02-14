@@ -1,1 +1,3 @@
-docker run --rm -v <YOUR LOCAL PATH>:/external --name selenium -it  moditamam/selenium:python3 bash
+docker run --rm --name selenium -it  moditamam/selenium:python3 bash
+
+docker cp <PATH TO FILE OR DIRECTORY> selenium:/home/root

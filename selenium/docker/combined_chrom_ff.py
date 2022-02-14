@@ -1,9 +1,5 @@
-import os
 import logging
-
-from pyvirtualdisplay import Display
 from selenium import webdriver
-from selenium.webdriver import firefox
 
 logging.getLogger().setLevel(logging.INFO)
 
