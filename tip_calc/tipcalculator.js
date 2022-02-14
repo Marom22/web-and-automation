@@ -4,7 +4,6 @@ function calculateTip() {
   var serviceQual = document.getElementById("serviceQual").value;
   var numOfPeople = document.getElementById("peopleamt").value;
 
-  var musicQuality = document.getElementById()
   //validate input
   if (billAmt === "" || serviceQual == 0) {
     alert("Please enter values");
